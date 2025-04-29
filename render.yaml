@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mysql-container
+    env: docker
+    plan: free
+    autoDeploy: true
